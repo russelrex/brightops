@@ -1,7 +1,7 @@
 import { NAV_ITEMS } from '../data/content'
 import { useClock } from '../hooks/useClock'
 import { useScrollProgress } from '../hooks/useScrollProgress'
-import { BrandMark } from './BrandMark'
+import { Logo } from './Logo'
 
 export function SideNav() {
   const clock = useClock()
@@ -10,13 +10,8 @@ export function SideNav() {
   return (
     <aside className="sidenav">
       <div className="sidenav__top">
-        <div className="brandmark">
-          <BrandMark />
-          <div>
-            <div className="brandmark__name">BrightOps Digital</div>
-            <div className="brandmark__sub">TWO-PARTNER STARTUP / DEV + OPS</div>
-          </div>
-        </div>
+        <Logo variant="header" />
+        <p className="brandmark__sub">TWO-PARTNER STARTUP / DEV + OPS</p>
       </div>
       <nav className="sidenav__menu">
         {NAV_ITEMS.map(([num, label, href]) => (

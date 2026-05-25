@@ -6,7 +6,7 @@ export function TopBar() {
         <span>SYSTEMS • AUTOMATION • DEVELOPMENT • OPERATIONS</span>
       </div>
       <div className="topbar__c">
-        BRIGHTOPS DIGITAL — STARTUP.HOMEPAGE.V2 — 2026
+        BRIGHTOPS DIGITAL — STARTUP — 2026
       </div>
       <div className="topbar__r">
         <a href="mailto:hello@brightopsdigital.com">hello@brightopsdigital.com</a>

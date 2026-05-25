@@ -1,17 +1,14 @@
-import { BrandMark } from './BrandMark'
+import { Logo } from './Logo'
 
 export function Footer() {
   return (
     <footer className="foot2">
       <div className="foot2__top">
         <div className="foot2__brand">
-          <BrandMark size={44} />
-          <div>
-            <div className="foot2__name">BrightOps Digital</div>
-            <div className="foot2__tag">
-              Smarter systems. Stronger businesses.
-            </div>
-          </div>
+          <Logo variant="footer" />
+          <p className="foot2__tag">
+            Smarter systems. Stronger businesses.
+          </p>
         </div>
         <div className="foot2__cols">
           <div>

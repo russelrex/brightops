@@ -275,10 +275,9 @@ export const MARQUEE_ITEMS = [
 ] as const
 
 export const HERO_SPECS = [
-  ['A', 'PARTNERS', '2'],
-  ['B', 'SERVICES', '10+'],
-  ['C', 'FOCUS', 'Full Stack'],
-  ['D', 'MODEL', 'Dev + Ops'],
+  ['A', 'SERVICES', '10+'],
+  ['B', 'FOCUS', 'Full Stack'],
+  ['C', 'MODEL', 'Dev + Ops'],
 ] as const
 
 export const CONTACT_INTERESTS = [
